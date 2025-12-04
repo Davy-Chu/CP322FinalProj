@@ -1,0 +1,72 @@
+=== Overall test performance (all 3 languages) ===
+Accuracy: 0.8488505747126437
+F1 (macro): 0.8488501253967262
+
+Classification report (all languages):
+              precision    recall  f1-score   support
+
+    negative       0.85      0.85      0.85       870
+    positive       0.85      0.85      0.85       870
+
+    accuracy                           0.85      1740
+   macro avg       0.85      0.85      0.85      1740
+weighted avg       0.85      0.85      0.85      1740
+
+
+Confusion matrix (all languages) [rows=true, cols=pred]:
+[[737 133]
+ [130 740]]
+
+===== Language: french =====
+Accuracy: 0.8448275862068966
+F1 (macro): 0.844820205479452
+
+Classification report:
+              precision    recall  f1-score   support
+
+    negative       0.84      0.85      0.85       290
+    positive       0.85      0.84      0.84       290
+
+    accuracy                           0.84       580
+   macro avg       0.84      0.84      0.84       580
+weighted avg       0.84      0.84      0.84       580
+
+Confusion matrix [rows=true, cols=pred]:
+[[247  43]
+ [ 47 243]]
+
+===== Language: german =====
+Accuracy: 0.8551724137931035
+F1 (macro): 0.8551293487957181
+
+Classification report:
+              precision    recall  f1-score   support
+
+    negative       0.87      0.84      0.85       290
+    positive       0.84      0.87      0.86       290
+
+    accuracy                           0.86       580
+   macro avg       0.86      0.86      0.86       580
+weighted avg       0.86      0.86      0.86       580
+
+Confusion matrix [rows=true, cols=pred]:
+[[243  47]
+ [ 37 253]]
+
+===== Language: spanish =====
+Accuracy: 0.846551724137931
+F1 (macro): 0.8465476186937224
+
+Classification report:
+              precision    recall  f1-score   support
+
+    negative       0.84      0.85      0.85       290
+    positive       0.85      0.84      0.85       290
+
+    accuracy                           0.85       580
+   macro avg       0.85      0.85      0.85       580
+weighted avg       0.85      0.85      0.85       580
+
+Confusion matrix [rows=true, cols=pred]:
+[[247  43]
+ [ 46 244]]

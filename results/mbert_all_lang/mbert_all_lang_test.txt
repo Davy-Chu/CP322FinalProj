@@ -1,0 +1,73 @@
+100%|██████████| 109/109 [00:33<00:00,  3.23it/s]
+=== Overall test performance (all 3 languages) ===
+Accuracy: 0.8
+F1 (macro): 0.7999904870624048
+
+Classification report (all languages):
+              precision    recall  f1-score   support
+
+    negative       0.80      0.79      0.80       870
+    positive       0.80      0.81      0.80       870
+
+    accuracy                           0.80      1740
+   macro avg       0.80      0.80      0.80      1740
+weighted avg       0.80      0.80      0.80      1740
+
+
+Confusion matrix (all languages) [rows=true, cols=pred]:
+[[690 180]
+ [168 702]]
+
+===== Language: french =====
+Accuracy: 0.8120689655172414
+F1 (macro): 0.8118670749526096
+
+Classification report:
+              precision    recall  f1-score   support
+
+    negative       0.83      0.78      0.81       290
+    positive       0.79      0.84      0.82       290
+
+    accuracy                           0.81       580
+   macro avg       0.81      0.81      0.81       580
+weighted avg       0.81      0.81      0.81       580
+
+Confusion matrix [rows=true, cols=pred]:
+[[226  64]
+ [ 45 245]]
+
+===== Language: german =====
+Accuracy: 0.7965517241379311
+F1 (macro): 0.7965420471841704
+
+Classification report:
+              precision    recall  f1-score   support
+
+    negative       0.80      0.79      0.80       290
+    positive       0.79      0.80      0.80       290
+
+    accuracy                           0.80       580
+   macro avg       0.80      0.80      0.80       580
+weighted avg       0.80      0.80      0.80       580
+
+Confusion matrix [rows=true, cols=pred]:
+[[229  61]
+ [ 57 233]]
+
+===== Language: spanish =====
+Accuracy: 0.7913793103448276
+F1 (macro): 0.7913042443923052
+
+Classification report:
+              precision    recall  f1-score   support
+
+    negative       0.78      0.81      0.80       290
+    positive       0.80      0.77      0.79       290
+
+    accuracy                           0.79       580
+   macro avg       0.79      0.79      0.79       580
+weighted avg       0.79      0.79      0.79       580
+
+Confusion matrix [rows=true, cols=pred]:
+[[235  55]
+ [ 66 224]]

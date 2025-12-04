@@ -1,0 +1,81 @@
+len(val_y_true)    = 648
+len(val_lang_array)= 648
+len(val_y_pred)    = 648
+=== Overall validation performance (all 3 languages) ===
+Accuracy: 0.9058641975308642
+F1 (macro): 0.905862179830672
+
+Classification report (validation, all languages combined):
+              precision    recall  f1-score   support
+
+    negative       0.90      0.91      0.91       324
+    positive       0.91      0.90      0.91       324
+
+    accuracy                           0.91       648
+   macro avg       0.91      0.91      0.91       648
+weighted avg       0.91      0.91      0.91       648
+
+
+Confusion matrix (validation, all languages) [rows=true, cols=pred]:
+[[295  29]
+ [ 32 292]]
+
+
+===== Validation – Language: french =====
+Accuracy: 0.9074074074074074
+F1 (macro): 0.9072802197802198
+
+Classification report:
+              precision    recall  f1-score   support
+
+    negative       0.88      0.94      0.91       108
+    positive       0.94      0.87      0.90       108
+
+    accuracy                           0.91       216
+   macro avg       0.91      0.91      0.91       216
+weighted avg       0.91      0.91      0.91       216
+
+Confusion matrix [rows=true, cols=pred]:
+[[102   6]
+ [ 14  94]]
+
+
+===== Validation – Language: german =====
+Accuracy: 0.9027777777777778
+F1 (macro): 0.90272565460745
+
+Classification report:
+              precision    recall  f1-score   support
+
+    negative       0.92      0.88      0.90       108
+    positive       0.88      0.93      0.90       108
+
+    accuracy                           0.90       216
+   macro avg       0.90      0.90      0.90       216
+weighted avg       0.90      0.90      0.90       216
+
+Confusion matrix [rows=true, cols=pred]:
+[[ 95  13]
+ [  8 100]]
+
+
+===== Validation – Language: spanish =====
+Accuracy: 0.9074074074074074
+F1 (macro): 0.9074074074074074
+
+Classification report:
+              precision    recall  f1-score   support
+
+    negative       0.91      0.91      0.91       108
+    positive       0.91      0.91      0.91       108
+
+    accuracy                           0.91       216
+   macro avg       0.91      0.91      0.91       216
+weighted avg       0.91      0.91      0.91       216
+
+Confusion matrix [rows=true, cols=pred]:
+[[98 10]
+ [10 98]]
+
+=== Validation Macro F1 averaged over languages (3-language mean) ===
+Validation language-level macro F1: 0.9058044272650257
